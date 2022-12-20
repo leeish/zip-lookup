@@ -1,0 +1,12 @@
+{
+  "runtime": "nodejs12.x",
+  "version": "1.0",
+  "secrets": ["TOKEN"],
+  "endpoints": {
+    "zip-lookup": {
+      "method": "GET",
+      "file": "app.js"
+    }
+  },
+  "appFunctions": {}
+}
